@@ -5,7 +5,7 @@ void setUp(void) {}
 void tearDown(void) {}
 
 void test_say_hello(void) {
-  TEST_ASSERT_EQUAL_STRING("Hello, John!", say_hello("Brandon"));
+  TEST_ASSERT_EQUAL_STRING("Hello, Brandon!", say_hello("Brandon"));
 }
 
 int main(void) {

@@ -4,21 +4,25 @@ This is a sample project for setting up cmake with the [Unity](https://github.co
 
 ## Usage
 
-```shell
-mkdir build
+First, create a build directory for cmake
 
-cd build
+```
+mkdir build
 ```
 
-### prod
+Next, continue to `production` or `testing` configuration
+
+### production
 
 ```shell
+cd build
 cmake ../
 ```
 
 ### testing
 
 ```shell
+cd build
 cmake -D TARGET_GROUP=test ../
 ```
 
